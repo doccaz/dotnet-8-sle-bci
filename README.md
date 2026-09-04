@@ -39,6 +39,7 @@ versions.json           # source of truth: tested SDK/runtime tag pairing
 app/
   HelloWorld.csproj
   Program.cs
+screenshots/            # for this README
 ```
 
 ## Pulling the pre-built image
@@ -74,6 +75,8 @@ Expected output:
 Hello from .NET on SUSE BCI!
 Framework: .NET 8.0.x
 ```
+
+![Terminal output](screenshots/terminal-run.png)
 
 The container exits immediately afterwards (exit code 0) — this is a
 console app, not a service, so don't run it with `-d`.
