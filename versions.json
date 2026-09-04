@@ -1,0 +1,10 @@
+[
+  {
+    "dotnet_version": "8.0.30",
+    "sdk_tag": "8.0",
+    "runtime_tag": "8.0",
+    "major": "8",
+    "minor": "8.0",
+    "latest": true
+  }
+]
